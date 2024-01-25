@@ -1,46 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-#book {
-    max-width: 800px; /* Limit the maximum width of the book */
-    margin: 50px auto 0; /* Top margin increased to 50px, center horizontally */
-}
-
-#cover {
-    background-color: #333;
-    position: relative; /* Ensure relative positioning for absolutely positioned children */
-}
-
-#cover img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Maintain aspect ratio while covering the container */
-}
-
-#pages {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-}
-
-.page {
-    background-color: #fff;
-    border: 1px solid #333;
-    box-sizing: border-box;
-    flex: 1 1 calc(25% - 10px); /* Each page takes 25% of the container with some margin */
-    max-width: calc(25% - 10px); /* Max width for responsiveness */
-    padding: 10px;
-    margin-bottom: 10px; /* Add margin between pages */
-}
-
-.page h1 {
-    margin: 0 0 10px;
-}
-
-.page p {
-    margin: 0;
+*{ margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
 }
